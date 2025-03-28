@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Advanced HTML5</h1>
+    </header>
+    
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#registration">Register</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Main Content Section -->
+    <main>
+        <!-- Ordered List with Roman Numerals -->
+        <section id="home">
+            <h2>Topics Covered</h2>
+            <ol type="I">
+                <li>HTML5 Images</li>
+                <li>Lists</li>
+                <li>Tables</li>
+                <li>Forms and Input Types</li>
+                <li>Multimedia Elements</li>
+            </ol>
+        </section>
+        
+        <!-- External Image -->
+        <section>
+            <h2>Sample Image</h2>
+            <img src="https://www.pexels.com/photo/sample-image.jpg" alt="cheki vitu mbwayaa">
+        </section>
+        
+        <!-- Contacts Table -->
+        <section id="contacts">
+            <h2>Contact List</h2>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Nairobi</td>
+                    <td>+254700000000</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>Mombasa</td>
+                    <td>+254711111111</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Ali Mohamed</td>
+                    <td>Kisumu</td>
+                    <td>+254722222222</td>
+                    <td>ali@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Rose</td>
+                    <td>Nakuru</td>
+                    <td>+254733333333</td>
+                    <td>emily@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Otieno</td>
+                    <td>Eldoret</td>
+                    <td>+254744444444</td>
+                    <td>michael@example.com</td>
+                </tr>
+            </table>
+        </section>
+        
+        <!-- Registration Form -->
+        <section id="registration">
+            <h2>Registration Form</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a password" required><br>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br>
+                
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label><br>
+                
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Tanzania">Tanzania</option>
+                </select><br>
+                
+                <label>Interests:</label>
+                <input type="checkbox" id="coding" name="interest" value="coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="gaming" name="interest" value="gaming">
+                <label for="gaming">Gaming</label>
+                <input type="checkbox" id="reading" name="interest" value="reading">
+                <label for="reading">Reading</label><br>
+                
+                <input type="submit" value="Register">
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer Section nyamira baby-->
+    <footer>
+        <p>Contact us at: <a href="mailto:nathanslay7@gmail.com">nathanslay7@gmail.com.com</a></p>
+    </footer>
+</body>
+</html>
+
